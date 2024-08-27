@@ -18,10 +18,10 @@ body {
 }
 
 .container {
-    height: 550px;
+    /* height: 550px; */
     width: 100%;
-    max-width: 350px;
-    background-color: hsl(218, 23%, 21%);
+    /* max-width: 350px; */
+    /* background-color: hsl(218, 23%, 21%); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +30,7 @@ body {
 
 .advice-card {
     width: 100%;
-    max-width: 320px;
+    max-width: 400px;
     background-color: hsl(218, 19%, 28%);
     display: flex;
     flex-direction: column;
