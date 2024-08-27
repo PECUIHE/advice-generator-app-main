@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope';
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 100vh;
+}
+
+.container {
+    height: 550px;
+    width: 100%;
+    max-width: 350px;
+    background-color: hsl(218, 23%, 21%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.advice-card {
+    width: 100%;
+    max-width: 320px;
+    background-color: hsl(218, 19%, 28%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.advice-id {
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.advice-statement  {
+    color: hsl(193, 38%, 86%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.next-button button {
+    background: hsl(150, 100%, 66%);
+    border: none;
+    padding: 20px;
+    border-radius: 50%;
+    transform: translateY(100%);
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.next-button button:hover {
+    transition: all 0.5s;
+    box-shadow: 0 4px 30px hsl(150, 100%, 66%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
